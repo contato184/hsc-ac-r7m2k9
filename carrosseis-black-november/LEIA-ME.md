@@ -1,6 +1,8 @@
 # Carrosséis Black November 2026: cursos EAD
 
 Quatro carrosséis de 5 slides, formato LinkedIn 4:5 (1080 x 1350), PNG e PDF em cada pasta.
+Vídeo com motion (MP4 4:5, 26 s, sem áudio) em cada pasta: `video-<curso>.mp4`. Para regenerar os vídeos: `node carrosseis-black-november/gerar_carrosseis.js --video` (cerca de 5 min por curso).
+
 Para regenerar após ajustes de texto: `node carrosseis-black-november/gerar_carrosseis.js` (os textos ficam no início do script).
 
 | Pasta | Curso |
