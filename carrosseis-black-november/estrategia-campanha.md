@@ -41,12 +41,25 @@ As datas da campanha ainda não foram definidas. A sequência abaixo usa dias re
 | D3 | Carrossel UDI | Tema com prazo regulatório no Brasil, gera senso de urgência legítimo |
 | D5 | Carrossel Avaliação Clínica | Público diferente, amplia o alcance |
 | D7 | Carrossel Usabilidade | Fecha a primeira rodada com P&D e engenharia |
-| D9 a D12 | Repostagem dos dois carrosséis com mais resultado, com o gancho B (seção 6) | Testar o gancho e alcançar quem não viu |
+| D9 a D12 | Repostagem dos dois carrosséis com mais resultado, com o gancho B (seção 7) | Testar o gancho e alcançar quem não viu |
 | Últimas 48 h | Post curto de encerramento com a data final da condição | Só publicar com a data de término confirmada |
+
+Hashtags sem acento, para que funcionem como link no LinkedIn.
 
 Boas práticas de LinkedIn que valem testar: publicar de terça a quinta pela manhã; responder todos os comentários nas primeiras horas; pedir à equipe e aos instrutores que comentem com uma opinião técnica (não apenas "parabéns"), o que aumenta o alcance. Validar com os dados da própria página depois da primeira semana.
 
-## 4. Mecânica de conversão
+## 4. Formato: carrossel ou vídeo com motion
+
+O LinkedIn não anima PDF. Para ter movimento, cada curso também tem um vídeo MP4 (`video-<curso>.mp4`, 4:5, 26 segundos, sem áudio), com os mesmos 5 slides animados: textos e cards entrando em sequência, antes e depois com destaque, barra de progresso e transição entre slides.
+
+| Formato | Ponto forte | Quando usar |
+|---|---|---|
+| Carrossel (PDF) | O leitor passa no próprio ritmo; costuma gerar salvamentos | Primeira publicação de cada curso |
+| Vídeo com motion (MP4) | Toca sozinho no feed e prende a atenção nos primeiros segundos | Repostagem (D9 a D12) e anúncios patrocinados |
+
+Ao publicar o vídeo, colocar a legenda do curso e o link no primeiro comentário, como no carrossel. Como o vídeo toca sem som, todo o conteúdo já está escrito na tela.
+
+## 5. Mecânica de conversão
 
 1. **Link no primeiro comentário**, não na legenda. O LinkedIn tende a reduzir o alcance de posts com link externo no texto.
 2. **Um link rastreável por curso** (parâmetros UTM), para saber qual post vendeu:
@@ -57,23 +70,23 @@ Boas práticas de LinkedIn que valem testar: publicar de terça a quinta pela ma
    A mensagem identifica o curso e a origem, o que ajuda a equipe a responder rápido e a medir.
 4. **Resposta a comentários** com uma informação técnica útil e o convite para o link, nunca só "obrigado".
 
-## 5. Legendas prontas
+## 6. Legendas prontas
 
 ### MDSAP
 
 > 1 auditoria. 5 mercados.
 >
-> O MDSAP permite que uma única auditoria do sistema da qualidade seja usada por ANVISA, FDA, Health Canada, TGA e MHLW e PMDA.
+> O MDSAP permite que uma única auditoria do sistema da qualidade seja usada por ANVISA, FDA, Health Canada, TGA e MHLW/PMDA.
 >
 > Na prática, isso já decide o acesso a mercados. O Canadá exige o certificado MDSAP para dispositivos das classes II a IV desde 2019. O FDA aceita relatórios MDSAP no lugar de inspeções de rotina. A ANVISA usa esses relatórios na Certificação de Boas Práticas de Fabricação.
 >
 > Conhecer a ISO 13485 é o ponto de partida. Conduzir uma auditoria MDSAP exige relacionar a norma aos requisitos de cada autoridade e saber auditar processo por processo.
 >
-> No curso EAD Auditor Líder MDSAP da HSC Academy você recebe 6 módulos com 104 videoaulas, apostila e caderno de exercícios em cada módulo, preparação para a prova e um kit de simulação de auditoria para praticar antes de ir a campo. São 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
+> No curso EAD Auditor Líder MDSAP da HSC Academy você recebe 6 módulos com 104 videoaulas, apostila e caderno de exercícios em cada módulo, preparação para a prova e um kit de simulação de auditoria para praticar antes de ir a campo. Inclui 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
 >
 > A condição Black November está no link do primeiro comentário.
 >
-> #MDSAP #AuditoriaDaQualidade #ISO13485 #AssuntosRegulatórios #DispositivosMédicos #ANVISA #HSCAcademy
+> #MDSAP #AuditoriaDaQualidade #ISO13485 #AssuntosRegulatorios #DispositivosMedicos #ANVISA #HSCAcademy
 
 Primeiro comentário:
 > Link da condição Black November do curso Auditor Líder MDSAP: [link com UTM]
@@ -87,25 +100,25 @@ Primeiro comentário:
 >
 > UDI não é só um código de barras. O UDI-DI identifica o modelo. O UDI-PI liga cada unidade a lote, série e validade, e é isso que torna possível rastrear um produto em um recolhimento.
 >
-> No curso EAD de UDI da HSC Academy você aprende a RDC 591/2021 e os padrões GS1 passo a passo, pratica a montagem e a leitura dos códigos em um laboratório com kit de apoio, e recebe os novos módulos sem custo adicional durante o acesso. São 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
+> No curso EAD de UDI da HSC Academy você aprende a RDC 591/2021 e os padrões GS1 passo a passo, pratica a montagem e a leitura dos códigos em um laboratório com kit de apoio, e recebe os novos módulos sem custo adicional durante o acesso. Inclui 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
 >
 > A condição Black November está no link do primeiro comentário.
 >
-> #UDI #RDC591 #GS1 #Rastreabilidade #AssuntosRegulatórios #DispositivosMédicos #HSCAcademy
+> #UDI #RDC591 #GS1 #Rastreabilidade #AssuntosRegulatorios #DispositivosMedicos #HSCAcademy
 
 ### Avaliação Clínica ISO 14155:2020
 
 > Sua investigação clínica resistiria a uma auditoria?
 >
-> A ISO 14155:2020 define as boas práticas clínicas para investigações com dispositivos médicos em seres humanos. A edição 2020 trouxe mudanças que impactam a rotina de quem conduz estudos: abordagem baseada em risco em toda a investigação, inclusive no monitoramento; registro em base de dados pública; orientação para as fases piloto, pivotal e pós comercialização; e orientações para comitês de ética.
+> A ISO 14155:2020 define as boas práticas clínicas para investigações com dispositivos médicos em seres humanos. A edição 2020 trouxe mudanças que impactam a rotina de quem conduz estudos: abordagem baseada em risco em toda a investigação, inclusive no monitoramento; registro em base de dados pública; orientação para as fases piloto, pivotal e pós-comercialização; e orientações para comitês de ética.
 >
 > Ler a norma é diferente de conduzir um estudo do planejamento ao relatório final.
 >
-> No curso EAD de Avaliação Clínica da HSC Academy, com conteúdo atualizado em 2026, você recebe videoaulas organizadas por tema, materiais de apoio para download, quizzes por módulo e prova final. São 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
+> No curso EAD de Avaliação Clínica da HSC Academy, com conteúdo atualizado em 2026, você recebe videoaulas organizadas por tema, materiais de apoio para download, quizzes por módulo e prova final. Inclui 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
 >
 > A condição Black November está no link do primeiro comentário.
 >
-> #ISO14155 #AvaliaçãoClínica #PesquisaClínica #BoasPráticasClínicas #DispositivosMédicos #HSCAcademy
+> #ISO14155 #AvaliacaoClinica #PesquisaClinica #BoasPraticasClinicas #DispositivosMedicos #HSCAcademy
 
 ### Usabilidade IEC 62366-1
 
@@ -115,24 +128,24 @@ Primeiro comentário:
 >
 > Quando a usabilidade fica para o fim do projeto, o custo de corrigir a interface e a documentação cresce.
 >
-> No curso EAD de Engenharia de Usabilidade da HSC Academy você recebe 32 videoaulas, materiais de apoio, quizzes por módulo e prova final. São 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
+> No curso EAD de Engenharia de Usabilidade da HSC Academy você recebe 32 videoaulas, materiais de apoio, quizzes por módulo e prova final. Inclui 1 ano de acesso, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma.
 >
 > A condição Black November está no link do primeiro comentário.
 >
-> #IEC62366 #Usabilidade #FatoresHumanos #ISO14971 #DispositivosMédicos #HSCAcademy
+> #IEC62366 #Usabilidade #FatoresHumanos #ISO14971 #DispositivosMedicos #HSCAcademy
 
-## 6. Ganchos alternativos para teste A/B
+## 7. Ganchos alternativos para teste A/B
 
 | Curso | Gancho A (carrossel atual) | Gancho B (repostagem) |
 |---|---|---|
 | MDSAP | 1 auditoria. 5 mercados. | O que separa um auditor interno de um auditor MDSAP? |
 | UDI | Seu rótulo está pronto para o UDI? | UDI não é tarefa de TI. É requisito da ANVISA. |
-| Avaliação Clínica | Sua investigação clínica resistiria a uma auditoria? | O que mudou na ISO 14155 e quase ninguém aplica |
+| Avaliação Clínica | Sua investigação clínica resistiria a uma auditoria? | O que mudou na ISO 14155 na edição 2020 |
 | Usabilidade | Erro de uso não é culpa do usuário. É requisito de projeto. | Testar a usabilidade só no fim custa caro |
 
 Comparar o gancho A e o B pelo número de cliques no link do comentário (UTM), não só por curtidas.
 
-## 7. O que medir
+## 8. O que medir
 
 | Métrica | Onde ver | Para que serve |
 |---|---|---|
@@ -144,7 +157,7 @@ Comparar o gancho A e o B pelo número de cliques no link do comentário (UTM), 
 
 Registrar os números ao fim de cada semana e decidir a repostagem com base neles.
 
-## 8. Checklist obrigatório antes de publicar
+## 9. Checklist obrigatório antes de publicar
 
 Nenhum post vai ao ar sem estes itens:
 
@@ -158,7 +171,7 @@ Nenhum post vai ao ar sem estes itens:
 8. Links com UTM e link do WhatsApp testados.
 9. Revisão técnica dos fatos dos slides 2 pelo Rafael.
 
-## 9. Riscos e como evitar
+## 10. Riscos e como evitar
 
 | Risco | Impacto | Prevenção |
 |---|---|---|
