@@ -61,6 +61,24 @@ Nenhuma é executada sem aprovação explícita. Cada uma será refeita com os d
 | 9 | Avaliação Clínica | Prova final e certificado | Mesmo padrão dos itens 4 e 5 (a prova não pode cobrar conteúdo dos Módulos 3 a 5 se eles não forem publicados) | Mesmo dos itens 4 e 5 | Rafael |
 | 10 | Usabilidade | Prova final e certificado | Conferir a prova existente; ajustar para 80% e mais de uma tentativa, ou criar | Restaurar os valores anotados na leitura | Rafael |
 
+## Valores informados pelo Rafael (09/11/2026)
+
+Fonte: anotação manuscrita "Organização para a Black Friday, Cursos EAD", enviada pelo Rafael. Não conferido na Cademí nem na Hotmart. Nenhum preço foi alterado em nenhuma plataforma.
+
+| Curso | Valor menor | Valor maior | Observação |
+|---|---|---|---|
+| MDSAP | R$ 1.500,00 | R$ 2.143,00 | Diferença de 30% |
+| UDI | R$ 550,00 | R$ 786,00 | Diferença de 30%. Leitura do "550" confirmada pela proporção |
+| Avaliação Clínica | R$ 890,00 | R$ 1.271,00 | Diferença de 30% |
+| Engenharia de Usabilidade | R$ 490,00 (a confirmar) | R$ 986,00 | Pela proporção de 30% dos outros cursos, o valor menor seria R$ 690,00. Confirmar se é 490 ou 690 |
+| Validação de Processos Especiais, Cursos 1 a 4 | sem valor | sem valor | Curso fora da lista de preços |
+
+A confirmar com o Rafael:
+1. O valor maior é o preço "de" e o menor é o preço "por" da Black November?
+2. Os valores têm aprovação do Nicolas e do Artur, responsáveis por preço?
+3. Onde o preço será aplicado: Hotmart, loja própria ou ambos? A Cademí não é o ponto de venda.
+4. Os outros onze cursos da anotação (Introdução e Regularização da Empresa, Domínio Regulatório, Registro FDA, Avaliação Pré-Clínica de Projetos, Gerenciamento de Risco, Gestão de Projetos, Atualização da 19011, Avaliação de Biocompatibilidade, Auditor Líder ISO 13485, Registro de Dispositivos Médicos, Auditor Interno ISO 13485) entram na campanha? Eles não têm valor anotado.
+
 ## Decisões e insumos que dependem da equipe
 
 - **Lista única de títulos aprovada (Rafael)**: sem ela o item G não é conferido e nenhum título é alterado.
