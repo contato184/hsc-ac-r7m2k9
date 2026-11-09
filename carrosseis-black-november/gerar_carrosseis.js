@@ -13,88 +13,111 @@ const font = w => `@font-face{font-family:"Blauer Nue";font-weight:${w};src:url(
 // Paleta oficial (DESIGN.md) e vermelho apenas como cor de campanha.
 const C = { navy: '#011072', accent: '#4A6CF7', deep: '#06091F', off: '#F0F2FF', prataE: '#6E7480', prataC: '#D8DCE3', red: '#E5233B' };
 
-const comoFunciona = extra => ({
-  tipo: 'grade',
-  eyebrow: 'Como funciona o curso',
-  titulo: 'Estudo no seu ritmo, com avaliação de verdade',
-  itens: [
-    ['100% EAD', 'Videoaulas organizadas em módulos, para assistir quando e onde quiser.'],
-    ['Quiz por módulo', 'Questões ao final de cada módulo para fixar o conteúdo.'],
-    ['Prova final', 'Nota mínima de 80% para aprovação.'],
-    ['Certificado HSC Global', 'Emitido após a aprovação, com QR Code de validação.'],
-    ...extra,
-  ],
-});
+// Itens comuns confirmados pelo Rafael em 09/11/2026: 1 ano de acesso ao EAD,
+// suporte pelo WhatsApp e pela plataforma, sem nomes de instrutores.
+const certificado = ['Certificado verificável', 'Certificado HSC Global com QR Code de validação, pronto para o currículo e o LinkedIn.'];
+const ritmo = ['1 ano de acesso', 'Assista, pause e revise quando precisar, no seu ritmo.'];
+const suporte = ['Suporte ao aluno', 'Dúvidas atendidas pelo WhatsApp e pela plataforma, das 8h às 17h.'];
 
-const cta = {
+const cta = recap => ({
   tipo: 'cta',
-  titulo: 'Garanta sua vaga com a condição Black November',
+  titulo: 'Leve tudo isso com a condição Black November',
+  recap,
   texto: 'Acesse o link nos comentários e confira a oferta.',
-};
+});
 
 const CURSOS = [
   {
     pasta: 'mdsap',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Auditor Líder MDSAP', sub: 'Uma auditoria. Cinco autoridades regulatórias. Aprenda a conduzir auditorias no padrão do programa.' },
+      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Auditor Líder MDSAP', sub: 'Prepare-se para auditar no programa aceito por ANVISA, FDA, Health Canada, TGA e MHLW e PMDA.' },
       {
-        tipo: 'lista', eyebrow: 'O que é o MDSAP', titulo: 'Uma única auditoria do sistema da qualidade aceita por 5 autoridades',
-        itens: [['ANVISA', 'Brasil'], ['FDA', 'Estados Unidos'], ['Health Canada', 'Canadá'], ['TGA', 'Austrália'], ['MHLW e PMDA', 'Japão']],
-        nota: 'Base da auditoria: ISO 13485:2016 somada aos requisitos regulatórios de cada país.',
-      },
-      {
-        tipo: 'fatos', eyebrow: 'Por que dominar o MDSAP', titulo: 'O que o auditor precisa saber',
+        tipo: 'fatos', eyebrow: 'Por que o MDSAP importa', titulo: 'Uma auditoria aceita por 5 autoridades regulatórias',
         itens: [
+          ['5 países', 'Brasil, Estados Unidos, Canadá, Austrália e Japão, com base na ISO 13485:2016.'],
           ['Desde 2019', 'Health Canada exige certificado MDSAP para dispositivos das classes II a IV.'],
-          ['3 anos', 'Ciclo de certificação: auditoria inicial, auditorias anuais de vigilância e recertificação.'],
-          ['7 processos', 'Gestão; Medição, análise e melhoria; Autorização de comercialização; Eventos adversos; Projeto; Produção; Compras.'],
-          ['Escala 1 a 5', 'Não conformidades classificadas por grau, com prazos de resposta definidos.'],
+          ['3 anos', 'Ciclo com auditoria inicial, vigilâncias anuais e recertificação.'],
+          ['7 processos', 'Da gestão às compras, cada um com requisitos próprios de cada país.'],
         ],
       },
-      comoFunciona([['Acesso por 6 meses', 'Tempo para estudar e revisar o conteúdo.']]),
-      cta,
+      {
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        itens: [
+          ['6 módulos e 104 videoaulas', 'Conteúdo completo do programa MDSAP.'],
+          ['Apostila de cada módulo', 'Material de consulta para estudar e revisar.'],
+          ['Caderno de exercícios', 'Exercícios em cada módulo para aplicar o conteúdo.'],
+          ['Preparação para a prova', 'Material de revisão antes da avaliação final.'],
+          ['Kit de simulação de auditoria', 'Prática de uma auditoria completa no Módulo 6.'],
+          ['Quizzes e prova final', 'Avaliação por módulo e prova com nota mínima de 80%.'],
+        ],
+      },
+      {
+        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Mais preparo para atuar como auditor',
+        itens: [['Prática antes do campo', 'Simule uma auditoria completa antes de auditar de verdade.'], certificado, ritmo, suporte],
+      },
+      cta('6 módulos, 104 videoaulas, apostilas, cadernos de exercícios, kit de simulação, certificado e 1 ano de acesso.'),
     ],
   },
   {
     pasta: 'udi',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'UDI: Identificação Única de Dispositivos Médicos', sub: 'RDC 591/2021 e padrões GS1 aplicados à rotulagem e à rastreabilidade.' },
-      {
-        tipo: 'lista', eyebrow: 'O que é o UDI', titulo: 'Um código que acompanha o dispositivo por toda a cadeia',
-        itens: [['UDI-DI', 'Identifica o fabricante e o modelo ou versão do dispositivo.'], ['UDI-PI', 'Identifica a produção: lote, número de série, validade e data de fabricação.'], ['AIDC', 'Forma legível por máquina, como código de barras ou Data Matrix.'], ['HRI', 'Forma legível por pessoas, impressa junto ao código.']],
-      },
+      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'UDI: Identificação Única de Dispositivos Médicos', sub: 'Aprenda a implantar o UDI conforme a RDC 591/2021 e os padrões GS1.' },
       {
         tipo: 'fatos', eyebrow: 'Por que o tema é urgente', titulo: 'UDI é exigência regulatória em vários mercados',
         itens: [
-          ['Brasil', 'A RDC 591/2021 da ANVISA institui o sistema UDI, com implantação escalonada por classe de risco.'],
+          ['Brasil', 'A RDC 591/2021 da ANVISA institui o UDI, com implantação escalonada por classe de risco.'],
           ['Estados Unidos', 'O FDA exige UDI pelo 21 CFR Part 830.'],
           ['União Europeia', 'O EU MDR traz o UDI no Artigo 27.'],
-          ['GS1', 'Uma das entidades emissoras usadas para gerar os códigos UDI.'],
+          ['UDI-DI e UDI-PI', 'Identificação do modelo e da produção: lote, série e validade.'],
         ],
       },
-      comoFunciona([['Instrutora', 'Priscila Marques.']]),
-      cta,
+      {
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        itens: [
+          ['Videoaulas em módulos', 'RDC 591/2021 e padrões GS1 explicados passo a passo.'],
+          ['Laboratório prático de UDI', 'Monte e interprete códigos UDI em exercícios guiados.'],
+          ['Kit do laboratório', 'Material de apoio para repetir a prática na sua empresa.'],
+          ['Novos módulos incluídos', 'Conteúdos liberados durante o acesso, sem custo adicional.'],
+          ['Quizzes e prova final', 'Avaliação por módulo e prova com nota mínima de 80%.'],
+          ['Certificado HSC Global', 'Com QR Code de validação.'],
+        ],
+      },
+      {
+        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Segurança para implantar o UDI',
+        itens: [['Prática aplicável', 'Treine a estrutura do código no laboratório antes de levar ao seu portfólio.'], ['Curso que cresce', 'Novos módulos liberados sem pagar de novo.'], ritmo, suporte],
+      },
+      cta('Videoaulas, laboratório prático, kit de apoio, novos módulos, certificado e 1 ano de acesso.'),
     ],
   },
   {
     pasta: 'avaliacao-clinica',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Avaliação Clínica <span class="nw">ISO 14155:2020</span>', sub: 'Boas práticas clínicas para investigações com dispositivos médicos, com atualização 2026.' },
+      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Avaliação Clínica <span class="nw">ISO 14155:2020</span>', sub: 'Boas práticas clínicas para investigações com dispositivos médicos, com conteúdo atualizado em 2026.' },
       {
-        tipo: 'lista', eyebrow: 'O que a ISO 14155 define', titulo: 'Boas práticas clínicas para investigações com dispositivos médicos em seres humanos',
-        itens: [['Participantes', 'Proteção dos direitos, da segurança e do bem estar.'], ['Dados', 'Condução científica que garante a credibilidade dos resultados.'], ['Responsabilidades', 'Papéis do patrocinador e do investigador principal.']],
-      },
-      {
-        tipo: 'fatos', eyebrow: 'Destaques da edição 2020', titulo: 'O que mudou na norma',
+        tipo: 'fatos', eyebrow: 'Destaques da edição 2020', titulo: 'O que a norma passou a exigir',
         itens: [
           ['Risco', 'Abordagem baseada em risco ao longo de toda a investigação, incluindo o monitoramento.'],
           ['Transparência', 'Registro da investigação em base de dados de acesso público.'],
-          ['Estágios', 'Orientação para as fases de desenvolvimento clínico: piloto, pivotal e pós comercialização.'],
+          ['Estágios', 'Orientação para as fases piloto, pivotal e pós comercialização.'],
           ['Ética', 'Orientações específicas para comitês de ética.'],
         ],
       },
-      comoFunciona([]),
-      cta,
+      {
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        itens: [
+          ['Videoaulas em módulos', 'Requisitos da ISO 14155:2020 organizados por tema.'],
+          ['Atualização 2026', 'Conteúdo revisado e atualizado.'],
+          ['Materiais de apoio', 'Arquivos para download e consulta.'],
+          ['Quizzes por módulo', 'Questões para fixar cada tema.'],
+          ['Prova final', 'Nota mínima de 80% para aprovação.'],
+          ['Certificado HSC Global', 'Com QR Code de validação.'],
+        ],
+      },
+      {
+        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Base sólida para investigações clínicas',
+        itens: [['Visão completa', 'Requisitos da norma do planejamento ao relatório final.'], certificado, ritmo, suporte],
+      },
+      cta('Videoaulas, conteúdo atualizado em 2026, materiais de apoio, certificado e 1 ano de acesso.'),
     ],
   },
   {
@@ -102,11 +125,7 @@ const CURSOS = [
     slides: [
       { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Engenharia de Usabilidade <span class="nw">IEC 62366-1:2015</span>', sub: 'Como reduzir o risco de erro de uso desde o projeto do dispositivo.' },
       {
-        tipo: 'lista', eyebrow: 'O que a IEC 62366-1 define', titulo: 'O processo para projetar uma interface segura de usar',
-        itens: [['Analisar', 'Quem usa, onde usa e para que usa o dispositivo.'], ['Especificar', 'Características da interface relacionadas à segurança.'], ['Projetar', 'Interface que reduz o risco de erro de uso.'], ['Avaliar', 'Evidência de que a interface é segura para o usuário.']],
-      },
-      {
-        tipo: 'fatos', eyebrow: 'Etapas centrais', titulo: 'O que compõe o processo de usabilidade',
+        tipo: 'fatos', eyebrow: 'Etapas centrais da norma', titulo: 'O que compõe o processo de usabilidade',
         itens: [
           ['Especificação de uso', 'Usuários, ambiente de uso e princípio de funcionamento.'],
           ['Cenários de uso', 'Perigos e situações perigosas relacionados ao uso.'],
@@ -114,8 +133,22 @@ const CURSOS = [
           ['ISO 14971', 'Integração com o processo de gerenciamento de risco.'],
         ],
       },
-      comoFunciona([]),
-      cta,
+      {
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        itens: [
+          ['32 videoaulas', 'O processo de engenharia de usabilidade passo a passo.'],
+          ['Materiais de apoio', 'Arquivos para download e consulta.'],
+          ['Quizzes por módulo', 'Questões para fixar cada tema.'],
+          ['Prova final', 'Nota mínima de 80% para aprovação.'],
+          ['Certificado HSC Global', 'Com QR Code de validação.'],
+          ['1 ano de acesso', 'Para estudar e revisar no seu ritmo.'],
+        ],
+      },
+      {
+        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Projetos mais seguros e bem documentados',
+        itens: [['Projeto mais seguro', 'Identifique riscos de erro de uso desde as primeiras fases.'], ['Documentação', 'Saiba o que compor no arquivo de engenharia de usabilidade.'], certificado, suporte],
+      },
+      cta('32 videoaulas, materiais de apoio, quizzes, prova final, certificado e 1 ano de acesso.'),
     ],
   },
 ];
@@ -169,6 +202,17 @@ function corpo(s) {
        <div style="font-size:33px;line-height:1.35;color:${C.off}">${d}</div></div>`).join('')}
     </div>
    </div>`;
+  if (s.tipo === 'recebe') return `
+   <div class="wrap">
+    <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+     ${s.itens.map(([t, d], i) => `<div class="card" style="padding:28px 28px">
+       <div style="display:flex;gap:16px;align-items:center;margin-bottom:12px">
+        <div style="width:48px;height:48px;border-radius:50%;background:${C.accent};display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;flex:none">${i + 1}</div>
+        <div style="font-size:32px;font-weight:700;line-height:1.12">${t}</div></div>
+       <div style="font-size:27px;color:${C.prataC};line-height:1.28">${d}</div></div>`).join('')}
+    </div>
+   </div>`;
   if (s.tipo === 'grade') return `
    <div class="wrap">
     <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
@@ -181,8 +225,9 @@ function corpo(s) {
   if (s.tipo === 'cta') return `
    <div class="wrap" style="justify-content:center">
     <div><span class="tag">BLACK NOVEMBER</span></div>
-    <h1 style="font-size:84px;margin-top:56px">${s.titulo}</h1>
-    <p style="font-size:38px;line-height:1.35;color:${C.prataC};margin-bottom:56px">${s.texto}</p>
+    <h1 style="font-size:76px;margin-top:48px">${s.titulo}</h1>
+    ${s.recap ? `<p style="font-size:34px;line-height:1.35;color:${C.off};border-left:6px solid ${C.accent};padding-left:24px;margin-bottom:28px">${s.recap}</p>` : ''}
+    <p style="font-size:34px;line-height:1.35;color:${C.prataC};margin-bottom:48px">${s.texto}</p>
     <div class="card" style="padding:40px 44px">
      <div style="font-size:26px;letter-spacing:3px;color:${C.accent};font-weight:600;text-transform:uppercase">Fale com a equipe</div>
      <div style="font-size:44px;font-weight:700;margin-top:14px">WhatsApp +55 11 2574-0785</div>

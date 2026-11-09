@@ -79,6 +79,12 @@ A confirmar com o Rafael:
 3. Onde o preço será aplicado: Hotmart, loja própria ou ambos? A Cademí não é o ponto de venda.
 4. Os outros onze cursos da anotação (Introdução e Regularização da Empresa, Domínio Regulatório, Registro FDA, Avaliação Pré-Clínica de Projetos, Gerenciamento de Risco, Gestão de Projetos, Atualização da 19011, Avaliação de Biocompatibilidade, Auditor Líder ISO 13485, Registro de Dispositivos Médicos, Auditor Interno ISO 13485) entram na campanha? Eles não têm valor anotado.
 
+## Decisões do Rafael em 09/11/2026
+
+- Prazo de acesso: 1 ano para os cursos EAD. Ajustar a validade na Cademí (ação na plataforma, exige aprovação).
+- Suporte ao aluno: WhatsApp e suporte da plataforma.
+- Nomes de instrutores não aparecem nos posts.
+
 ## Decisões e insumos que dependem da equipe
 
 - **Lista única de títulos aprovada (Rafael)**: sem ela o item G não é conferido e nenhum título é alterado.
