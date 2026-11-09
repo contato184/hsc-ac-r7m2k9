@@ -1,6 +1,10 @@
 // Gera os carrosséis Black November 2026 (LinkedIn, 4:5, 1080 x 1350).
 // Uso: node carrosseis-black-november/gerar_carrosseis.js
-// Saída: carrosseis-black-november/<curso>/slide_0N.png e <curso>.pdf
+// Saída: carrosseis-black-november/<curso>/slide_0N.png e carrossel-<curso>.pdf
+//
+// Estrutura de conversão (5 slides):
+// 1 Gancho para o público certo | 2 O que está em jogo | 3 O que você recebe
+// 4 Antes e depois (transformação) | 5 Oferta e chamada
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
@@ -10,100 +14,119 @@ const A = path.join(DIR, 'assets');
 const logoBranco = 'data:image/svg+xml;base64,' + fs.readFileSync(path.join(A, 'logo-hsc-global-branco.svg')).toString('base64');
 const font = w => `@font-face{font-family:"Blauer Nue";font-weight:${w};src:url(file://${path.join(A, `BlauerNue-${w}.ttf`)})}`;
 
-// Paleta oficial (DESIGN.md) e vermelho apenas como cor de campanha.
+// Paleta oficial (DESIGN.md). Vermelho apenas como cor de campanha Black November.
 const C = { navy: '#011072', accent: '#4A6CF7', deep: '#06091F', off: '#F0F2FF', prataE: '#6E7480', prataC: '#D8DCE3', red: '#E5233B' };
 
-// Itens comuns confirmados pelo Rafael em 09/11/2026: 1 ano de acesso ao EAD,
-// suporte pelo WhatsApp e pela plataforma, sem nomes de instrutores.
-const certificado = ['Certificado verificável', 'Certificado HSC Global com QR Code de validação, pronto para o currículo e o LinkedIn.'];
-const ritmo = ['1 ano de acesso', 'Assista, pause e revise quando precisar, no seu ritmo.'];
-const suporte = ['Suporte ao aluno', 'Dúvidas atendidas pelo WhatsApp e pela plataforma, das 8h às 17h.'];
-
-const cta = recap => ({
-  tipo: 'cta',
-  titulo: 'Leve tudo isso com a condição Black November',
-  recap,
-  texto: 'Acesse o link nos comentários e confira a oferta.',
-});
+// Itens confirmados pelo Rafael em 09/11/2026.
+const garantias = ['1 ano de acesso', 'Certificado HSC Global com QR Code', 'Suporte pelo WhatsApp e pela plataforma'];
 
 const CURSOS = [
   {
     pasta: 'mdsap',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Auditor Líder MDSAP', sub: 'Prepare-se para auditar no programa aceito por ANVISA, FDA, Health Canada, TGA e MHLW e PMDA.' },
       {
-        tipo: 'fatos', eyebrow: 'Por que o MDSAP importa', titulo: 'Uma auditoria aceita por 5 autoridades regulatórias',
+        tipo: 'capa', publico: 'Para profissionais de qualidade e assuntos regulatórios',
+        titulo: '1 auditoria.<br><span class="hl">5 mercados.</span>',
+        sub: 'Quem domina o MDSAP fala a língua de ANVISA, FDA, Health Canada, TGA e MHLW e PMDA ao mesmo tempo.',
+        curso: 'Curso EAD Auditor Líder MDSAP',
+      },
+      {
+        tipo: 'fatos', eyebrow: 'O que está em jogo', titulo: 'O MDSAP já decide o acesso a mercados',
         itens: [
-          ['5 países', 'Brasil, Estados Unidos, Canadá, Austrália e Japão, com base na ISO 13485:2016.'],
-          ['Desde 2019', 'Health Canada exige certificado MDSAP para dispositivos das classes II a IV.'],
-          ['3 anos', 'Ciclo com auditoria inicial, vigilâncias anuais e recertificação.'],
-          ['7 processos', 'Da gestão às compras, cada um com requisitos próprios de cada país.'],
+          ['Canadá', 'Certificado MDSAP obrigatório para dispositivos das classes II a IV desde 2019.'],
+          ['Estados Unidos', 'O FDA aceita relatórios MDSAP no lugar de inspeções de rotina.'],
+          ['Brasil', 'A ANVISA usa relatórios MDSAP na Certificação de Boas Práticas de Fabricação.'],
+          ['Ciclo de 3 anos', 'Auditoria inicial, vigilâncias anuais e recertificação.'],
         ],
       },
       {
-        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído',
         itens: [
-          ['6 módulos e 104 videoaulas', 'Conteúdo completo do programa MDSAP.'],
-          ['Apostila de cada módulo', 'Material de consulta para estudar e revisar.'],
-          ['Caderno de exercícios', 'Exercícios em cada módulo para aplicar o conteúdo.'],
-          ['Preparação para a prova', 'Material de revisão antes da avaliação final.'],
-          ['Kit de simulação de auditoria', 'Prática de uma auditoria completa no Módulo 6.'],
+          ['6 módulos e 104 videoaulas', 'O programa MDSAP completo.'],
+          ['Apostila por módulo', 'Material de consulta para estudar e revisar.'],
+          ['Caderno de exercícios', 'Aplicação prática em cada módulo.'],
+          ['Preparação para a prova', 'Revisão dirigida antes da avaliação final.'],
+          ['Kit de simulação de auditoria', 'Uma auditoria completa para praticar no Módulo 6.'],
           ['Quizzes e prova final', 'Avaliação por módulo e prova com nota mínima de 80%.'],
         ],
       },
       {
-        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Mais preparo para atuar como auditor',
-        itens: [['Prática antes do campo', 'Simule uma auditoria completa antes de auditar de verdade.'], certificado, ritmo, suporte],
+        tipo: 'antesdepois', eyebrow: 'A diferença na prática', titulo: 'Do conhecimento da norma à condução da auditoria',
+        itens: [
+          ['Conhece a ISO 13485, mas não os requisitos de cada país', 'Relaciona a ISO 13485 aos requisitos das 5 autoridades'],
+          ['Nunca conduziu uma auditoria no modelo MDSAP', 'Já praticou uma auditoria completa com o kit de simulação'],
+          ['Experiência difícil de comprovar', 'Certificado HSC Global com QR Code verificável'],
+        ],
       },
-      cta('6 módulos, 104 videoaulas, apostilas, cadernos de exercícios, kit de simulação, certificado e 1 ano de acesso.'),
+      {
+        tipo: 'cta', titulo: 'Comece agora com a condição Black November',
+        recap: '6 módulos, 104 videoaulas, apostilas, cadernos de exercícios e kit de simulação de auditoria.',
+      },
     ],
   },
   {
     pasta: 'udi',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'UDI: Identificação Única de Dispositivos Médicos', sub: 'Aprenda a implantar o UDI conforme a RDC 591/2021 e os padrões GS1.' },
       {
-        tipo: 'fatos', eyebrow: 'Por que o tema é urgente', titulo: 'UDI é exigência regulatória em vários mercados',
+        tipo: 'capa', publico: 'Para assuntos regulatórios, rotulagem e qualidade',
+        titulo: 'Seu rótulo está pronto para o <span class="hl">UDI</span>?',
+        sub: 'A RDC 591/2021 trouxe o UDI para o Brasil. Entenda o que muda e como implantar com os padrões GS1.',
+        curso: 'Curso EAD UDI: Identificação Única de Dispositivos Médicos',
+      },
+      {
+        tipo: 'fatos', eyebrow: 'O que está em jogo', titulo: 'UDI não é só um código de barras',
         itens: [
-          ['Brasil', 'A RDC 591/2021 da ANVISA institui o UDI, com implantação escalonada por classe de risco.'],
+          ['Brasil', 'A RDC 591/2021 institui o UDI, com prazos escalonados por classe de risco.'],
           ['Estados Unidos', 'O FDA exige UDI pelo 21 CFR Part 830.'],
           ['União Europeia', 'O EU MDR traz o UDI no Artigo 27.'],
-          ['UDI-DI e UDI-PI', 'Identificação do modelo e da produção: lote, série e validade.'],
+          ['Rastreabilidade', 'O UDI-PI liga cada unidade a lote, série e validade, essencial em recolhimentos.'],
         ],
       },
       {
-        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído',
         itens: [
-          ['Videoaulas em módulos', 'RDC 591/2021 e padrões GS1 explicados passo a passo.'],
-          ['Laboratório prático de UDI', 'Monte e interprete códigos UDI em exercícios guiados.'],
-          ['Kit do laboratório', 'Material de apoio para repetir a prática na sua empresa.'],
-          ['Novos módulos incluídos', 'Conteúdos liberados durante o acesso, sem custo adicional.'],
+          ['Videoaulas em módulos', 'RDC 591/2021 e padrões GS1 passo a passo.'],
+          ['Laboratório prático de UDI', 'Monte e interprete códigos em exercícios guiados.'],
+          ['Kit do laboratório', 'Material para repetir a prática na sua empresa.'],
+          ['Novos módulos incluídos', 'Liberados durante o acesso, sem custo adicional.'],
           ['Quizzes e prova final', 'Avaliação por módulo e prova com nota mínima de 80%.'],
           ['Certificado HSC Global', 'Com QR Code de validação.'],
         ],
       },
       {
-        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Segurança para implantar o UDI',
-        itens: [['Prática aplicável', 'Treine a estrutura do código no laboratório antes de levar ao seu portfólio.'], ['Curso que cresce', 'Novos módulos liberados sem pagar de novo.'], ritmo, suporte],
+        tipo: 'antesdepois', eyebrow: 'A diferença na prática', titulo: 'Do requisito à implantação',
+        itens: [
+          ['Dúvida sobre o que compõe o UDI-DI e o UDI-PI', 'Monta a estrutura do código com segurança, praticada no laboratório'],
+          ['UDI visto como tarefa só de TI ou de rotulagem', 'Visão regulatória completa: RDC 591/2021 e GS1'],
+          ['Treinamento que fica desatualizado', 'Novos módulos liberados sem pagar de novo'],
+        ],
       },
-      cta('Videoaulas, laboratório prático, kit de apoio, novos módulos, certificado e 1 ano de acesso.'),
+      {
+        tipo: 'cta', titulo: 'Comece agora com a condição Black November',
+        recap: 'Videoaulas, laboratório prático, kit de apoio e novos módulos incluídos.',
+      },
     ],
   },
   {
     pasta: 'avaliacao-clinica',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Avaliação Clínica <span class="nw">ISO 14155:2020</span>', sub: 'Boas práticas clínicas para investigações com dispositivos médicos, com conteúdo atualizado em 2026.' },
       {
-        tipo: 'fatos', eyebrow: 'Destaques da edição 2020', titulo: 'O que a norma passou a exigir',
+        tipo: 'capa', publico: 'Para assuntos clínicos, regulatórios e pesquisa',
+        titulo: 'Sua investigação clínica resistiria a uma <span class="hl">auditoria</span>?',
+        sub: 'A ISO 14155:2020 define as boas práticas clínicas para dispositivos médicos. Conteúdo atualizado em 2026.',
+        curso: 'Curso EAD Avaliação Clínica ISO 14155:2020',
+      },
+      {
+        tipo: 'fatos', eyebrow: 'O que está em jogo', titulo: 'O que a edição 2020 passou a exigir',
         itens: [
-          ['Risco', 'Abordagem baseada em risco ao longo de toda a investigação, incluindo o monitoramento.'],
+          ['Risco', 'Abordagem baseada em risco em toda a investigação, inclusive no monitoramento.'],
           ['Transparência', 'Registro da investigação em base de dados de acesso público.'],
           ['Estágios', 'Orientação para as fases piloto, pivotal e pós comercialização.'],
           ['Ética', 'Orientações específicas para comitês de ética.'],
         ],
       },
       {
-        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído',
         itens: [
           ['Videoaulas em módulos', 'Requisitos da ISO 14155:2020 organizados por tema.'],
           ['Atualização 2026', 'Conteúdo revisado e atualizado.'],
@@ -114,18 +137,30 @@ const CURSOS = [
         ],
       },
       {
-        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Base sólida para investigações clínicas',
-        itens: [['Visão completa', 'Requisitos da norma do planejamento ao relatório final.'], certificado, ritmo, suporte],
+        tipo: 'antesdepois', eyebrow: 'A diferença na prática', titulo: 'Da leitura da norma à condução do estudo',
+        itens: [
+          ['Norma lida, mas sem visão do processo inteiro', 'Entende os requisitos do planejamento ao relatório final'],
+          ['Monitoramento igual para qualquer estudo', 'Aplica a abordagem baseada em risco da edição 2020'],
+          ['Experiência difícil de comprovar', 'Certificado HSC Global com QR Code verificável'],
+        ],
       },
-      cta('Videoaulas, conteúdo atualizado em 2026, materiais de apoio, certificado e 1 ano de acesso.'),
+      {
+        tipo: 'cta', titulo: 'Comece agora com a condição Black November',
+        recap: 'Videoaulas, conteúdo atualizado em 2026, materiais de apoio, quizzes e prova final.',
+      },
     ],
   },
   {
     pasta: 'usabilidade',
     slides: [
-      { tipo: 'capa', kicker: 'Curso EAD', titulo: 'Engenharia de Usabilidade <span class="nw">IEC 62366-1:2015</span>', sub: 'Como reduzir o risco de erro de uso desde o projeto do dispositivo.' },
       {
-        tipo: 'fatos', eyebrow: 'Etapas centrais da norma', titulo: 'O que compõe o processo de usabilidade',
+        tipo: 'capa', publico: 'Para P&amp;D, engenharia de produto e assuntos regulatórios',
+        titulo: 'Erro de uso não é culpa do usuário. <span class="hl">É requisito de projeto.</span>',
+        sub: 'A IEC 62366-1 mostra como projetar interfaces que reduzem o risco de erro de uso.',
+        curso: 'Curso EAD Engenharia de Usabilidade <span class="nw">IEC 62366-1:2015</span>',
+      },
+      {
+        tipo: 'fatos', eyebrow: 'O que está em jogo', titulo: 'O processo que a norma exige',
         itens: [
           ['Especificação de uso', 'Usuários, ambiente de uso e princípio de funcionamento.'],
           ['Cenários de uso', 'Perigos e situações perigosas relacionados ao uso.'],
@@ -134,9 +169,9 @@ const CURSOS = [
         ],
       },
       {
-        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído no curso',
+        tipo: 'recebe', eyebrow: 'O que você recebe', titulo: 'Tudo o que está incluído',
         itens: [
-          ['32 videoaulas', 'O processo de engenharia de usabilidade passo a passo.'],
+          ['32 videoaulas', 'O processo de usabilidade passo a passo.'],
           ['Materiais de apoio', 'Arquivos para download e consulta.'],
           ['Quizzes por módulo', 'Questões para fixar cada tema.'],
           ['Prova final', 'Nota mínima de 80% para aprovação.'],
@@ -145,10 +180,17 @@ const CURSOS = [
         ],
       },
       {
-        tipo: 'grade', eyebrow: 'O que você ganha', titulo: 'Projetos mais seguros e bem documentados',
-        itens: [['Projeto mais seguro', 'Identifique riscos de erro de uso desde as primeiras fases.'], ['Documentação', 'Saiba o que compor no arquivo de engenharia de usabilidade.'], certificado, suporte],
+        tipo: 'antesdepois', eyebrow: 'A diferença na prática', titulo: 'Da teoria ao projeto seguro',
+        itens: [
+          ['Usabilidade avaliada só no fim do projeto', 'Avaliações formativas desde as primeiras fases'],
+          ['Usabilidade separada da gestão de risco', 'Processo integrado à ISO 14971'],
+          ['Dúvida sobre o que documentar', 'Sabe o que compor no arquivo de engenharia de usabilidade'],
+        ],
       },
-      cta('32 videoaulas, materiais de apoio, quizzes, prova final, certificado e 1 ano de acesso.'),
+      {
+        tipo: 'cta', titulo: 'Comece agora com a condição Black November',
+        recap: '32 videoaulas, materiais de apoio, quizzes e prova final.',
+      },
     ],
   },
 ];
@@ -157,81 +199,87 @@ const css = `
 ${[400, 500, 600, 700].map(font).join('')}
 *{box-sizing:border-box;margin:0;padding:0}
 body{width:1080px;height:1350px;font-family:"Blauer Nue",sans-serif;color:${C.off};
- background:radial-gradient(900px 700px at 85% 0%,rgba(74,108,247,.35),transparent 60%),radial-gradient(800px 600px at 0% 100%,rgba(1,16,114,.9),transparent 70%),${C.deep};
+ background:radial-gradient(900px 700px at 85% 0%,rgba(74,108,247,.32),transparent 60%),radial-gradient(800px 600px at 0% 100%,rgba(1,16,114,.9),transparent 70%),${C.deep};
  position:relative;overflow:hidden}
+body:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(216,220,227,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(216,220,227,.035) 1px,transparent 1px);background-size:54px 54px}
 .top{position:absolute;top:64px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center}
-.top img{height:52px}
+.top img{height:50px}
 .pg{font-size:24px;color:${C.prataC};font-weight:500;letter-spacing:2px}
-.foot{position:absolute;bottom:56px;left:80px;right:80px;display:flex;justify-content:space-between;font-size:24px;color:${C.prataE};font-weight:500}
-.wrap{position:absolute;top:190px;left:80px;right:80px;bottom:140px;display:flex;flex-direction:column}
-.eyebrow{font-size:26px;letter-spacing:4px;text-transform:uppercase;color:${C.accent};font-weight:600;margin-bottom:22px}
-h1{font-size:60px;line-height:1.08;font-weight:700;margin-bottom:44px}
-.card{background:linear-gradient(160deg,rgba(1,16,114,.85),rgba(6,9,31,.9));border:1px solid rgba(74,108,247,.35);border-radius:24px;
- box-shadow:0 18px 40px rgba(0,0,0,.45);padding:30px 36px}
-.tag{display:inline-block;background:${C.red};color:#fff;font-weight:700;font-size:26px;letter-spacing:4px;padding:12px 24px;border-radius:10px}
+.prog{position:absolute;bottom:108px;left:80px;right:80px;display:flex;gap:10px}
+.prog i{flex:1;height:6px;border-radius:3px;background:rgba(216,220,227,.18)}
+.prog i.on{background:${C.accent}}
+.foot{position:absolute;bottom:52px;left:80px;right:80px;display:flex;justify-content:space-between;font-size:23px;color:${C.prataE};font-weight:500}
+.wrap{position:absolute;top:180px;left:80px;right:80px;bottom:150px;display:flex;flex-direction:column}
+.eyebrow{font-size:25px;letter-spacing:4px;text-transform:uppercase;color:${C.accent};font-weight:600;margin-bottom:20px}
+h1{font-size:62px;line-height:1.06;font-weight:700;margin-bottom:40px;letter-spacing:-.5px}
+.hl{color:${C.accent}}
+.card{background:linear-gradient(160deg,rgba(1,16,114,.88),rgba(6,9,31,.92));border:1px solid rgba(74,108,247,.35);border-radius:24px;
+ box-shadow:0 18px 40px rgba(0,0,0,.45);padding:30px 34px}
+.tag{display:inline-block;background:${C.red};color:#fff;font-weight:700;font-size:24px;letter-spacing:4px;padding:11px 22px;border-radius:10px}
 .nw{white-space:nowrap}
 .bar{width:120px;height:8px;background:${C.accent};border-radius:4px}
+.dot{width:52px;height:52px;border-radius:50%;background:${C.accent};display:flex;align-items:center;justify-content:center;font-size:25px;font-weight:700;flex:none}
 `;
 
 function corpo(s) {
-  if (s.tipo === 'capa') return `
+  if (s.tipo === 'capa') {
+    const len = s.titulo.replace(/<[^>]+>/g, '').length;
+    return `
    <div class="wrap" style="justify-content:center">
     <div><span class="tag">BLACK NOVEMBER</span></div>
-    <div class="eyebrow" style="margin-top:56px">${s.kicker} | HSC Academy</div>
-    <h1 style="font-size:${s.titulo.replace(/<[^>]+>/g, '').length > 34 ? 80 : 96}px;margin-bottom:36px">${s.titulo}</h1>
+    <div class="eyebrow" style="margin-top:48px">${s.publico}</div>
+    <h1 style="font-size:${len > 50 ? 84 : len > 30 ? 96 : 120}px;line-height:1.02;margin-bottom:36px">${s.titulo}</h1>
     <div class="bar"></div>
-    <p style="font-size:38px;line-height:1.35;color:${C.prataC};margin-top:40px;max-width:880px">${s.sub}</p>
-    <p style="position:absolute;bottom:0;font-size:28px;color:${C.accent};font-weight:600">Arraste para o lado &rarr;</p>
-   </div>`;
-  if (s.tipo === 'lista') return `
-   <div class="wrap">
-    <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
-    <div style="display:flex;flex-direction:column;gap:${s.itens.length > 4 ? 16 : 22}px">
-     ${s.itens.map(([t, d]) => `<div class="card" style="display:flex;align-items:center;gap:32px;padding:${s.itens.length > 4 ? 26 : 36}px 36px">
-       <div style="font-size:38px;font-weight:700;color:#fff;min-width:${Math.max(...s.itens.map(x => x[0].length)) * 23 + 20}px;flex:none">${t}</div>
-       <div style="font-size:31px;line-height:1.3;color:${C.prataC}">${d}</div></div>`).join('')}
+    <p style="font-size:36px;line-height:1.35;color:${C.prataC};margin-top:36px;max-width:900px">${s.sub}</p>
+    <div style="position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;align-items:flex-end;gap:30px">
+     <div style="font-size:27px;color:${C.off};font-weight:600;max-width:680px;line-height:1.3">${s.curso}</div>
+     <div style="font-size:27px;color:${C.accent};font-weight:600;white-space:nowrap">Arraste &rarr;</div>
     </div>
-    ${s.nota ? `<p style="margin-top:30px;font-size:28px;line-height:1.35;color:${C.off};border-left:6px solid ${C.accent};padding-left:24px">${s.nota}</p>` : ''}
    </div>`;
+  }
   if (s.tipo === 'fatos') return `
    <div class="wrap">
     <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1">
-     ${s.itens.map(([t, d]) => `<div class="card" style="display:flex;flex-direction:column;justify-content:flex-start">
-       <div style="font-size:${t.length > 14 ? 42 : 54}px;font-weight:700;color:${C.accent};line-height:1.1;margin-bottom:18px">${t}</div>
-       <div style="font-size:33px;line-height:1.35;color:${C.off}">${d}</div></div>`).join('')}
+    <div style="display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:24px;flex:1">
+     ${s.itens.map(([t, d]) => `<div class="card" style="display:flex;flex-direction:column;justify-content:space-between">
+       <div style="font-size:${t.length > 14 ? 42 : 52}px;font-weight:700;color:${C.accent};line-height:1.08">${t}</div>
+       <div style="font-size:32px;line-height:1.33;color:${C.off}">${d}</div></div>`).join('')}
     </div>
    </div>`;
   if (s.tipo === 'recebe') return `
    <div class="wrap">
     <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
-     ${s.itens.map(([t, d], i) => `<div class="card" style="padding:28px 28px">
-       <div style="display:flex;gap:16px;align-items:center;margin-bottom:12px">
-        <div style="width:48px;height:48px;border-radius:50%;background:${C.accent};display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;flex:none">${i + 1}</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:22px;flex:1">
+     ${s.itens.map(([t, d], i) => `<div class="card" style="padding:28px 28px;display:flex;flex-direction:column;gap:14px">
+       <div style="display:flex;gap:16px;align-items:center"><div class="dot">${i + 1}</div>
         <div style="font-size:32px;font-weight:700;line-height:1.12">${t}</div></div>
-       <div style="font-size:27px;color:${C.prataC};line-height:1.28">${d}</div></div>`).join('')}
+       <div style="font-size:27px;color:${C.prataC};line-height:1.3">${d}</div></div>`).join('')}
     </div>
    </div>`;
-  if (s.tipo === 'grade') return `
+  if (s.tipo === 'antesdepois') return `
    <div class="wrap">
     <div class="eyebrow">${s.eyebrow}</div><h1>${s.titulo}</h1>
-    <div style="display:flex;flex-direction:column;gap:20px">
-     ${s.itens.map(([t, d], i) => `<div class="card" style="display:flex;gap:30px;align-items:center;padding:26px 36px">
-       <div style="width:64px;height:64px;border-radius:50%;background:${C.accent};display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:700;flex:none">${i + 1}</div>
-       <div><div style="font-size:34px;font-weight:700">${t}</div><div style="font-size:27px;color:${C.prataC};margin-top:6px;line-height:1.3">${d}</div></div></div>`).join('')}
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin-bottom:16px">
+     <div style="font-size:26px;letter-spacing:4px;font-weight:700;color:${C.prataE}">ANTES</div>
+     <div style="font-size:26px;letter-spacing:4px;font-weight:700;color:${C.accent}">DEPOIS DO CURSO</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:22px;flex:1">
+     ${s.itens.map(([a, d]) => `<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1">
+       <div style="border:1px solid rgba(216,220,227,.18);border-radius:24px;padding:28px 30px;font-size:30px;line-height:1.3;color:${C.prataC};display:flex;align-items:center;background:rgba(6,9,31,.6)">${a}</div>
+       <div class="card" style="font-size:31px;line-height:1.3;font-weight:600;display:flex;align-items:center;border-color:${C.accent}">${d}</div></div>`).join('')}
     </div>
    </div>`;
   if (s.tipo === 'cta') return `
    <div class="wrap" style="justify-content:center">
     <div><span class="tag">BLACK NOVEMBER</span></div>
-    <h1 style="font-size:76px;margin-top:48px">${s.titulo}</h1>
-    ${s.recap ? `<p style="font-size:34px;line-height:1.35;color:${C.off};border-left:6px solid ${C.accent};padding-left:24px;margin-bottom:28px">${s.recap}</p>` : ''}
-    <p style="font-size:34px;line-height:1.35;color:${C.prataC};margin-bottom:48px">${s.texto}</p>
-    <div class="card" style="padding:40px 44px">
-     <div style="font-size:26px;letter-spacing:3px;color:${C.accent};font-weight:600;text-transform:uppercase">Fale com a equipe</div>
-     <div style="font-size:44px;font-weight:700;margin-top:14px">WhatsApp +55 11 2574-0785</div>
-     <div style="font-size:34px;color:${C.prataC};margin-top:10px">hscglobalgroup.com</div>
+    <h1 style="font-size:78px;margin-top:40px;margin-bottom:30px">${s.titulo}</h1>
+    <p style="font-size:32px;line-height:1.35;color:${C.prataC};margin-bottom:28px">${s.recap}</p>
+    <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:40px">
+     ${garantias.map(g => `<div style="display:flex;gap:18px;align-items:center;font-size:32px;font-weight:600"><span style="width:34px;height:34px;border-radius:8px;background:${C.accent};display:inline-flex;align-items:center;justify-content:center;font-size:22px">&#10003;</span>${g}</div>`).join('')}
+    </div>
+    <div class="card" style="padding:34px 40px;border-color:${C.accent}">
+     <div style="font-size:36px;font-weight:700">Link da oferta nos comentários</div>
+     <div style="font-size:28px;color:${C.prataC};margin-top:12px">Dúvidas: WhatsApp +55 11 2574-0785 | hscglobalgroup.com</div>
     </div>
    </div>`;
   throw new Error('tipo desconhecido ' + s.tipo);
@@ -240,25 +288,32 @@ function corpo(s) {
 const html = (s, i, n) => `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${css}</style></head><body>
  <div class="top"><img src="${logoBranco}" alt="HSC Global"><div class="pg">${String(i + 1).padStart(2, '0')} / ${String(n).padStart(2, '0')}</div></div>
  ${corpo(s)}
- <div class="foot"><span>HSC Academy</span><span>Assuntos Regulatórios para Dispositivos Médicos</span></div>
+ <div class="prog">${Array.from({ length: n }, (_, k) => `<i class="${k <= i ? 'on' : ''}"></i>`).join('')}</div>
+ <div class="foot"><span>HSC Academy</span><span>${i === n - 1 ? 'Salve este post para consultar depois' : 'Assuntos Regulatórios para Dispositivos Médicos'}</span></div>
 </body></html>`;
 
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
+  let problemas = 0;
   for (const curso of CURSOS) {
     const out = path.join(DIR, curso.pasta);
     fs.mkdirSync(out, { recursive: true });
     const n = curso.slides.length;
     for (let i = 0; i < n; i++) {
       const doc = html(curso.slides[i], i, n);
+      if (/[—–·•]/.test(doc)) { console.warn(`AVISO: caractere proibido em ${curso.pasta} slide ${i + 1}`); problemas++; }
       const tmp = path.join(out, `.slide_${i + 1}.html`);
       fs.writeFileSync(tmp, doc);
       await page.goto('file://' + tmp);
       await page.evaluate(() => document.fonts.ready);
       // Checagem de estouro: nenhum bloco pode passar da área útil.
-      const over = await page.evaluate(() => { const w = document.querySelector('.wrap'); return w.scrollHeight > w.clientHeight + 2; });
-      if (over) console.warn(`AVISO: conteúdo estourando em ${curso.pasta} slide ${i + 1}`);
+      const over = await page.evaluate(() => {
+        const w = document.querySelector('.wrap');
+        if (w.scrollHeight > w.clientHeight + 2) return true;
+        return [...w.querySelectorAll('*')].some(e => e.scrollHeight > e.clientHeight + 2 && getComputedStyle(e).overflow !== 'visible');
+      });
+      if (over) { console.warn(`AVISO: conteúdo estourando em ${curso.pasta} slide ${i + 1}`); problemas++; }
       await page.screenshot({ path: path.join(out, `slide_0${i + 1}.png`) });
       fs.unlinkSync(tmp);
     }
@@ -272,4 +327,5 @@ const html = (s, i, n) => `<!doctype html><html lang="pt-BR"><head><meta charset
     console.log('ok', curso.pasta);
   }
   await browser.close();
+  if (problemas) process.exitCode = 1;
 })();

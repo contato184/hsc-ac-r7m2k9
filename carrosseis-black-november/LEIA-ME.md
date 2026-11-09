@@ -10,11 +10,13 @@ Para regenerar após ajustes de texto: `node carrosseis-black-november/gerar_car
 | avaliacao-clinica | Avaliação Clínica ISO 14155:2020 |
 | usabilidade | Engenharia de Usabilidade IEC 62366-1:2015 |
 
-Estrutura de cada carrossel: 1 capa; 2 por que o tema importa (fatos regulatórios); 3 o que você recebe no curso; 4 o que você ganha; 5 chamada Black November com resumo do que está incluído e contato.
+Estrutura de cada carrossel (versão 3): 1 gancho para o público certo; 2 o que está em jogo (fatos regulatórios); 3 o que você recebe; 4 antes e depois do curso; 5 oferta Black November com garantias e chamada.
+
+Estratégia, calendário, legendas prontas, ganchos para teste A/B, métricas e checklist de publicação: `estrategia-campanha.md`.
 
 ## Origem das informações
 
-- Slide 2: fatos públicos das normas e regulamentos (MDSAP, RDC 591/2021, 21 CFR Part 830, EU MDR Art. 27, ISO 14155:2020, IEC 62366-1, ISO 14971).
+- Slide 2: fatos públicos das normas e regulamentos (MDSAP e uso dos relatórios por Health Canada, FDA e ANVISA, RDC 591/2021, 21 CFR Part 830, EU MDR Art. 27, ISO 14155:2020, IEC 62366-1, ISO 14971).
 - Slides 3 a 5: itens das notas do projeto confirmados pelo Rafael em 09/11/2026 ("tem tudo isso"), não conferidos na Cademí:
   - MDSAP: 6 módulos, 104 videoaulas, apostila e caderno de exercícios por módulo, preparação para a prova, kit de simulação no Módulo 6.
   - UDI: laboratório prático e kit, novos módulos liberados sem custo adicional.
