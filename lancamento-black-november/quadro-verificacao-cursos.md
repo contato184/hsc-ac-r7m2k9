@@ -95,7 +95,7 @@ A confirmar com o Rafael:
 
 - À venda na campanha: somente os 4 cursos com valor na anotação (MDSAP, UDI, Avaliação Clínica, Usabilidade).
 - Os demais cursos da lista estão em edição e não serão vendidos agora.
-- Cursos com a Mari como instrutora não podem ser vendidos. Lista de cursos dela: a confirmar.
+- Cursos com a Mari como instrutora não podem ser vendidos. Rafael indicou: Auditor Líder MDSAP e MDR. MDSAP EAD (664166) suspenso das peças e da Lia até confirmação.
 
 ## Decisões e insumos que dependem da equipe
 
