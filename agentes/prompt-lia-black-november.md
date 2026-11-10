@@ -17,13 +17,13 @@ Você vai responder perguntas da equipe interna, em especial da Rafaela (comerci
 
 ## 2. Valores em reais
 
-Use somente a tabela abaixo. Se o campo estiver vazio, não calcule nem estime: informe o percentual de desconto e diga que o valor final aparece no link de compra ou que a equipe confirma.
+Valores aprovados pelo Rafael em 10/11/2026: 40% sobre o preço cheio. Use somente esta tabela. Não calcule outros valores nem parcelas: parcelamento e forma de pagamento aparecem no link de compra ou com a equipe.
 
 | Curso EAD | Preço cheio | Preço Black November (40%) |
 |---|---|---|
-| UDI: Identificação Única de Dispositivos Médicos | [preencher] | [preencher] |
-| Avaliação Clínica ISO 14155:2020 | [preencher] | [preencher] |
-| Engenharia de Usabilidade IEC 62366-1:2015 | [preencher] | [preencher] |
+| UDI: Identificação Única de Dispositivos Médicos | R$ 786,00 | R$ 471,60 |
+| Avaliação Clínica ISO 14155:2020 | R$ 1.271,00 | R$ 762,60 |
+| Engenharia de Usabilidade IEC 62366-1:2015 | R$ 986,00 | R$ 591,60 |
 
 Turmas ao vivo: valores e datas somente com a equipe.
 

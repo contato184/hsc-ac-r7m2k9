@@ -97,6 +97,16 @@ A confirmar com o Rafael:
 - Os demais cursos da lista estão em edição e não serão vendidos agora.
 - Cursos com a Mari como instrutora não podem ser vendidos. Rafael indicou: Auditor Líder MDSAP e MDR. Confirmado: o MDSAP EAD (664166) é da Mari e SAI do lançamento. Peças movidas para `carrosseis-black-november/_suspenso-mdsap-nao-publicar`.
 
+## Preços fechados pelo Rafael em 10/11/2026 (40% sobre o preço cheio)
+
+| Curso EAD | Preço cheio | Preço Black November |
+|---|---|---|
+| UDI | R$ 786,00 | R$ 471,60 |
+| Avaliação Clínica | R$ 1.271,00 | R$ 762,60 |
+| Engenharia de Usabilidade | R$ 986,00 | R$ 591,60 |
+
+Aplicar os mesmos valores na Hotmart e na loja antes da divulgação.
+
 ## Decisões e insumos que dependem da equipe
 
 - **Lista única de títulos aprovada (Rafael)**: sem ela o item G não é conferido e nenhum título é alterado.
