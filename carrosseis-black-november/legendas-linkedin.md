@@ -1,30 +1,8 @@
 # Legendas LinkedIn: carrosséis Black November 2026
 
+Auditor Líder MDSAP fora da campanha (Rafael, 10/11/2026): não publicar.
 Condições (Rafael, 10/11/2026): 40% nos cursos EAD, de 10/11 a 15/12, 1 ano de acesso.
 Link da oferta sempre no primeiro comentário. Sem preço até a confirmação dos valores.
-
-## MDSAP
-
-1 auditoria. 5 mercados.
-
-O MDSAP permite que uma única auditoria do sistema da qualidade seja usada por ANVISA, FDA, Health Canada, TGA e MHLW/PMDA.
-
-Na prática, isso já decide o acesso a mercados. O Canadá exige o certificado MDSAP para dispositivos das classes II a IV desde 2019. O FDA aceita relatórios MDSAP no lugar de inspeções de rotina. A ANVISA usa esses relatórios na Certificação de Boas Práticas de Fabricação.
-
-Conhecer a ISO 13485 é o ponto de partida. Conduzir uma auditoria MDSAP exige relacionar a norma aos requisitos de cada autoridade e saber auditar processo por processo.
-
-No curso EAD Auditor Líder MDSAP da HSC Academy você recebe:
-6 módulos com 104 videoaulas
-Apostila e caderno de exercícios em cada módulo
-Preparação para a prova final
-Kit de simulação de auditoria para praticar antes de ir a campo
-Certificado HSC Global com QR Code
-1 ano de acesso e suporte pelo WhatsApp e pela plataforma
-
-Black November HSC Academy: 40% de desconto nos cursos EAD, de 10/11 a 15/12.
-Link no primeiro comentário.
-
-#MDSAP #AuditoriaDaQualidade #ISO13485 #AssuntosRegulatorios #DispositivosMedicos #ANVISA #HSCAcademy
 
 ## UDI
 

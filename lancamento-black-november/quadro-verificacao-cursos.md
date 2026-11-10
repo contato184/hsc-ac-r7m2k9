@@ -93,9 +93,9 @@ A confirmar com o Rafael:
 
 ## Informação do Rafael em 10/11/2026 (noite)
 
-- À venda na campanha: somente os 4 cursos com valor na anotação (MDSAP, UDI, Avaliação Clínica, Usabilidade).
+- À venda na campanha: UDI, Avaliação Clínica e Usabilidade. O MDSAP saiu (instrutora Mari).
 - Os demais cursos da lista estão em edição e não serão vendidos agora.
-- Cursos com a Mari como instrutora não podem ser vendidos. Rafael indicou: Auditor Líder MDSAP e MDR. MDSAP EAD (664166) suspenso das peças e da Lia até confirmação.
+- Cursos com a Mari como instrutora não podem ser vendidos. Rafael indicou: Auditor Líder MDSAP e MDR. Confirmado: o MDSAP EAD (664166) é da Mari e SAI do lançamento. Peças movidas para `carrosseis-black-november/_suspenso-mdsap-nao-publicar`.
 
 ## Decisões e insumos que dependem da equipe
 

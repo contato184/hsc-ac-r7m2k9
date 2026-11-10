@@ -22,7 +22,7 @@ const garantias = ['1 ano de acesso', 'Certificado HSC Global com QR Code', 'Sup
 
 const CURSOS = [
   {
-    pasta: 'mdsap',
+    pasta: '_suspenso-mdsap-nao-publicar', suspenso: true, // fora da campanha (instrutora Mari), não gerar
     slides: [
       {
         tipo: 'capa', publico: 'Para profissionais de qualidade e assuntos regulatórios',
@@ -317,7 +317,7 @@ const XF = 0.5; // transição entre slides (s)
 
 async function video(browser) {
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
-  for (const curso of CURSOS) {
+  for (const curso of CURSOS.filter(c => !c.suspenso)) {
     const out = path.join(DIR, curso.pasta);
     const tmpDir = path.join(out, '.frames');
     fs.rmSync(tmpDir, { recursive: true, force: true });
@@ -366,7 +366,7 @@ async function video(browser) {
   if (process.argv.includes('--video')) { await video(browser); await browser.close(); return; }
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
   let problemas = 0;
-  for (const curso of CURSOS) {
+  for (const curso of CURSOS.filter(c => !c.suspenso)) {
     const out = path.join(DIR, curso.pasta);
     fs.mkdirSync(out, { recursive: true });
     const n = curso.slides.length;

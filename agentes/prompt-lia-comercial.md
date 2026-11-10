@@ -35,7 +35,7 @@ Sugira à Rafaela até 3 destas perguntas, conforme a conversa:
 
 | Necessidade do interessado | Curso indicado |
 |---|---|
-| Auditar ou preparar a empresa para auditoria MDSAP; exportar para Canadá, EUA, Japão ou Austrália | Auditor Líder MDSAP |
+| Auditoria MDSAP ou ISO 13485 | Curso fora da campanha: "Este curso está em atualização. Posso avisar quando for liberado?" |
 | Implantar UDI na rotulagem; prazos da RDC 591/2021; rastreabilidade | UDI |
 | Conduzir ou acompanhar investigação clínica de dispositivo | Avaliação Clínica ISO 14155:2020 |
 | Projeto de produto, interface, erro de uso, documentação de usabilidade | Engenharia de Usabilidade IEC 62366-1 |
@@ -51,7 +51,7 @@ Sugira à Rafaela até 3 destas perguntas, conforme a conversa:
 | "Vou pensar." | Perguntar qual ponto falta esclarecer. Lembrar que a condição vale até 15/12. Combinar a data do próximo contato. |
 | "Preciso da aprovação da empresa." | Oferecer uma proposta por e-mail para o gestor (seção 6). |
 | "O certificado é reconhecido?" | Certificado emitido pela HSC Global, com QR Code de validação. Não afirmar reconhecimento por órgãos reguladores. |
-| "Já fiz outro curso de MDSAP ou ISO 13485." | Destacar a prática: kit de simulação de auditoria, cadernos de exercícios e preparação para a prova. |
+| "Já fiz um curso parecido." | Destacar a prática de cada curso: laboratório de UDI, quizzes por módulo, prova final e certificado com QR Code. |
 
 ## 6. Propostas para empresas
 

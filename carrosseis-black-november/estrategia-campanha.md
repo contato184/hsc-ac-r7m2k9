@@ -2,6 +2,8 @@
 
 Documento de trabalho para aprovação do Rafael. Nada foi publicado.
 
+> **Atualização 10/11/2026:** o Auditor Líder MDSAP está FORA da campanha e não pode ser divulgado nem vendido. Ignore as menções ao MDSAP neste documento. Condições atuais: 40% nos cursos EAD, 30% nas turmas ao vivo, até 50% para equipes, de 10/11 a 15/12. Calendário atualizado no prompt da Lia, parte 2.
+
 ## 1. A ideia central
 
 O público da HSC Academy é técnico: qualidade, assuntos regulatórios, clínico e engenharia. Essa pessoa não compra por impulso nem por desconto. Ela compra quando enxerga três coisas:
@@ -37,8 +39,7 @@ As datas da campanha ainda não foram definidas. A sequência abaixo usa dias re
 
 | Dia | Publicação | Por quê |
 |---|---|---|
-| D1 | Carrossel MDSAP | Curso de maior valor e maior autoridade da HSC (especialista em MDSAP). Abre a campanha com força |
-| D3 | Carrossel UDI | Tema com prazo regulatório no Brasil, gera senso de urgência legítimo |
+| D1 | Carrossel UDI | Tema com prazo regulatório no Brasil, gera senso de urgência legítimo |
 | D5 | Carrossel Avaliação Clínica | Público diferente, amplia o alcance |
 | D7 | Carrossel Usabilidade | Fecha a primeira rodada com P&D e engenharia |
 | D9 a D12 | Repostagem dos dois carrosséis com mais resultado, com o gancho B (seção 7) | Testar o gancho e alcançar quem não viu |

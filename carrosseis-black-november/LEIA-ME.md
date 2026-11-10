@@ -7,7 +7,7 @@ Para regenerar após ajustes de texto: `node carrosseis-black-november/gerar_car
 
 | Pasta | Curso |
 |---|---|
-| mdsap | Auditor Líder MDSAP |
+| _suspenso-mdsap-nao-publicar | Auditor Líder MDSAP: FORA DA CAMPANHA, não publicar (decisão do Rafael, 10/11/2026) |
 | udi | UDI: Identificação Única de Dispositivos Médicos |
 | avaliacao-clinica | Avaliação Clínica ISO 14155:2020 |
 | usabilidade | Engenharia de Usabilidade IEC 62366-1:2015 |

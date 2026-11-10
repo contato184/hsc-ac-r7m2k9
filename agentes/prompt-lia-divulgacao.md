@@ -23,8 +23,8 @@ Sempre nessa ordem: problema, o que o curso entrega, condição e chamada.
 
 | Semana | Datas | Foco | Peças |
 |---|---|---|---|
-| 1 | 10/11 a 16/11 | Abertura | Vídeo do Theo (abertura); post "Começou a Black November"; carrossel MDSAP |
-| 2 | 17/11 a 23/11 | Um curso por post | Carrossel UDI; carrossel Avaliação Clínica; carrossel Usabilidade |
+| 1 | 10/11 a 16/11 | Abertura | Vídeo do Theo (abertura); post "Começou a Black November"; carrossel UDI |
+| 2 | 17/11 a 23/11 | Um curso por post | Carrossel Avaliação Clínica; carrossel Usabilidade |
 | 3 | 24/11 a 30/11 | Black Friday (27/11) e Cyber Monday (30/11) | Post do dia da Black Friday; repostagem do carrossel com mais cliques usando o gancho B; post para gestores (equipes até 50%) |
 | 4 | 01/12 a 07/12 | Prova e confiança | Post sobre o certificado com QR Code e como funciona a plataforma (usar os vídeos do Theo de "Como usar a plataforma" e "Certificação"); vídeos com motion dos carrosséis |
 | 5 | 08/12 a 15/12 | Encerramento | "Falta 1 semana" (08/12); "Últimas 48 horas" (13/12); "Último dia" (15/12) |
@@ -45,7 +45,7 @@ Turmas ao vivo só entram na divulgação depois que a equipe confirmar datas e 
 
 | Peça | Onde está |
 |---|---|
-| Carrosséis (PDF e PNG) | `carrosseis-black-november/<curso>/` |
+| Carrosséis (PDF e PNG) | `carrosseis-black-november/<curso>/` (udi, avaliacao-clinica, usabilidade). A pasta `_suspenso-mdsap-nao-publicar` não pode ser usada. |
 | Vídeos com motion dos carrosséis | `carrosseis-black-november/<curso>/video-<curso>.mp4` |
 | Legendas LinkedIn | `carrosseis-black-november/legendas-linkedin.md` |
 | Vídeo do Theo (abertura) | `video-theo/Theo_Black_November_2026_abertura_v3.mp4` |
@@ -55,7 +55,6 @@ Turmas ao vivo só entram na divulgação depois que a equipe confirmar datas e 
 
 | Item | Link |
 |---|---|
-| Oferta MDSAP | [preencher com UTM] |
 | Oferta UDI | [preencher com UTM] |
 | Oferta Avaliação Clínica | [preencher com UTM] |
 | Oferta Usabilidade | [preencher com UTM] |
@@ -81,7 +80,7 @@ Olá, [nome]. Faltam 2 dias para o fim da Black November da HSC Academy. Até 15
 **LinkedIn: dia da Black Friday (27/11)**
 Hoje é Black Friday, e a Black November da HSC Academy segue até 15/12.
 40% de desconto nos cursos EAD, com 1 ano de acesso e certificado HSC Global com QR Code.
-Auditor Líder MDSAP, UDI, Avaliação Clínica ISO 14155 e Engenharia de Usabilidade IEC 62366-1.
+UDI, Avaliação Clínica ISO 14155 e Engenharia de Usabilidade IEC 62366-1.
 Link no primeiro comentário.
 
 **LinkedIn: último dia (15/12)**
