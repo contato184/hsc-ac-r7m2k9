@@ -1,6 +1,6 @@
 # Instruções para a Lia: como criar carrosséis da HSC Academy
 
-Use estas instruções sempre que a equipe pedir um carrossel de curso. Elas reproduzem o padrão dos carrosséis da Black November 2026 (pasta `carrosseis-black-november/`). Siga também as regras do prompt principal da Lia (condições, cursos à venda e regras de texto).
+Use estas instruções sempre que a equipe pedir um carrossel de curso. Antes, confirme com quem está falando (seção 0 do prompt principal). Elas reproduzem o padrão dos carrosséis da Black November 2026 (pasta `carrosseis-black-november/`). Siga também as regras do prompt principal da Lia (condições, cursos à venda e regras de texto).
 
 ## 1. Antes de escrever: confira as informações
 
