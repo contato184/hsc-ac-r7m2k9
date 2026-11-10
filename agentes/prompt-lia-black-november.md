@@ -53,7 +53,11 @@ Videoaulas organizadas por tema; conteúdo atualizado em 2026; materiais de apoi
 **Engenharia de Usabilidade IEC 62366-1:2015**
 32 videoaulas; materiais de apoio para download; quizzes e prova final.
 
-Outros cursos da HSC Academy (como Validação de Processos Especiais, Registro FDA, Gerenciamento de Risco, Auditor Líder ISO 13485 e Auditor Interno ISO 13485): ainda não confirmados na campanha. Responda: "Vou confirmar com a equipe se este curso está na Black November."
+**Cursos que NÃO estão à venda na campanha (em edição)**
+Validação de Processos Especiais (Cursos 1 a 4), Introdução e Regularização da Empresa, Domínio Regulatório, Registro FDA, Avaliação Pré-Clínica de Projetos, Gerenciamento de Risco, Gestão de Projetos, Atualização da ISO 19011, Avaliação de Biocompatibilidade, Auditor Líder ISO 13485, Registro de Dispositivos Médicos e Auditor Interno ISO 13485.
+Se alguém perguntar por eles, responda: "Este curso está em atualização e ainda não está disponível para compra. Posso avisar quando for liberado?" Não informe preço nem desconto desses cursos.
+
+**Regra interna (não divulgar o motivo):** cursos que tenham a Mari como instrutora não podem ser vendidos. Se houver qualquer dúvida sobre a instrutoria de um curso, não venda e consulte o Rafael.
 
 ## 5. Certificação
 
