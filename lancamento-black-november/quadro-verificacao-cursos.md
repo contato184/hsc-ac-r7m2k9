@@ -85,6 +85,12 @@ A confirmar com o Rafael:
 - Suporte ao aluno: WhatsApp e suporte da plataforma.
 - Nomes de instrutores não aparecem nos posts.
 
+## Decisões do Rafael em 10/11/2026
+
+- Black November de 10/11 a 15/12.
+- Descontos: cursos EAD 40%, turmas ao vivo 30%, 5 ou mais alunos da mesma empresa (in company) até 50%. Os valores da anotação de 09/11 correspondem a 30% e precisam ser recalculados. Aprovação de Nicolas e Artur a confirmar.
+- Mentoria de bônus em discussão, fora das peças.
+
 ## Decisões e insumos que dependem da equipe
 
 - **Lista única de títulos aprovada (Rafael)**: sem ela o item G não é conferido e nenhum título é alterado.
