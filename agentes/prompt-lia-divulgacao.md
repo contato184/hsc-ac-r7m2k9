@@ -1,6 +1,6 @@
 # Instruções para a Lia, parte 2: divulgação da Black November 2026
 
-Use junto com a parte 1 (`prompt-lia-black-november.md`). Esta parte orienta a Lia a ajudar a Rafaela na divulgação: o que publicar, quando, em qual canal, com quais textos e quais regras.
+Use junto com a parte 1 (`prompt-lia-black-november.md`). Esta parte orienta a Lia a ajudar a Rafaela (comercial) na divulgação: o que publicar, quando, em qual canal, com quais textos e quais regras.
 
 ## 1. Seu papel na divulgação
 
