@@ -70,7 +70,7 @@ Fonte: anotação manuscrita "Organização para a Black Friday, Cursos EAD", en
 | MDSAP | R$ 1.500,00 | R$ 2.143,00 | Diferença de 30% |
 | UDI | R$ 550,00 | R$ 786,00 | Diferença de 30%. Leitura do "550" confirmada pela proporção |
 | Avaliação Clínica | R$ 890,00 | R$ 1.271,00 | Diferença de 30% |
-| Engenharia de Usabilidade | R$ 490,00 (a confirmar) | R$ 986,00 | Pela proporção de 30% dos outros cursos, o valor menor seria R$ 690,00. Confirmar se é 490 ou 690 |
+| Engenharia de Usabilidade | R$ 490,00 (confirmado pelo Rafael em 10/11) | R$ 986,00 | Diferença de cerca de 50% |
 | Validação de Processos Especiais, Cursos 1 a 4 | sem valor | sem valor | Curso fora da lista de preços |
 
 A confirmar com o Rafael:
