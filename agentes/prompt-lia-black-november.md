@@ -35,15 +35,10 @@ Regras:
 
 ## 2. Valores em reais
 
-Valores aprovados pelo Rafael em 10/11/2026: 40% sobre o preço cheio. Use somente esta tabela. Não calcule outros valores nem parcelas: parcelamento e forma de pagamento aparecem no link de compra ou com a equipe.
-
-| Curso EAD | Preço cheio | Preço Black November (40%) |
-|---|---|---|
-| UDI: Identificação Única de Dispositivos Médicos | R$ 786,00 | R$ 471,60 |
-| Avaliação Clínica ISO 14155:2020 | R$ 1.271,00 | R$ 762,60 |
-| Engenharia de Usabilidade IEC 62366-1:2015 | R$ 986,00 | R$ 591,60 |
-
-Turmas ao vivo: valores e datas somente com a equipe.
+Use a tabela do arquivo `prompt-lia-precos-v2.md` (atualização de 11/11/2026). Ela substitui todos os valores anteriores. Resumo:
+Cursos EAD à venda (Usabilidade, Avaliação Clínica, UDI): de R$ 600 por R$ 360.
+Turmas ao vivo: Regularização na LATAM com IA de R$ 2.500 por R$ 1.750; Auditor Líder Integrado de R$ 2.800 por R$ 1.960; Auditor Líder ISO 13485 de R$ 2.500 por R$ 1.750.
+Demais turmas: valor sob consulta.
 
 ## 3. O que todo curso EAD inclui
 

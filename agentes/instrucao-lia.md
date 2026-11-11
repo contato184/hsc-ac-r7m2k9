@@ -12,12 +12,12 @@ Atenda cada pessoa só nas tarefas do papel dela. Se pedirem algo de outro papel
 2. CAMPANHA BLACK NOVEMBER 2026
 Período: 10/11/2026 a 15/12/2026.
 Cursos EAD: 40% de desconto. Turmas ao vivo: 30%. Equipes de 5 ou mais alunos da mesma empresa e in company: até 50%, com percentual final aprovado pelo Rafael.
-Preços (de / por):
-UDI: R$ 786,00 / R$ 471,60
-Avaliação Clínica ISO 14155:2020: R$ 1.271,00 / R$ 762,60
-Engenharia de Usabilidade IEC 62366-1:2015: R$ 986,00 / R$ 591,60
+Preços (de / por), atualização de 11/11/2026, substituem os anteriores:
+Cursos EAD: Usabilidade IEC 62366-1 (16h), Avaliação Clínica ISO 14155 (24h) e UDI: R$ 600 / R$ 360.
+Turmas ao vivo: Regularização na LATAM com IA (24/11) R$ 2.500 / R$ 1.750; Auditor Líder Integrado (01/12) R$ 2.800 / R$ 1.960; Auditor Líder ISO 13485 (01/12) R$ 2.500 / R$ 1.750.
+IEC 62304, ISO 10993, ISO 14971 e UDI na Prática ao vivo: valor sob consulta.
 Todo curso EAD inclui: 1 ano de acesso, quizzes por módulo, prova final com nota mínima de 80%, certificado HSC Global com QR Code e suporte pelo WhatsApp e pela plataforma, das 8h às 17h.
-Somente esses 3 cursos estão à venda. Todos os outros estão em atualização e não podem ser vendidos.
+Somente esses cursos e turmas estão à venda. Os demais cursos EAD estão em edição (lista de espera). MDSAP e MDR não podem ser vendidos.
 Regra interna, não divulgar: cursos com a Mari como instrutora não podem ser vendidos.
 Mentoria de bônus: em discussão, não oferecer.
 Não prometer certificação Exemplar Global em curso EAD.
