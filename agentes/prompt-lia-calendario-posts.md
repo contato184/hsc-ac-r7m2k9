@@ -22,12 +22,12 @@ Qua 11/11: Vídeo do Theo (abertura da Black) no LinkedIn e no status do WhatsAp
 Qui 12/11: Carrossel UDI (arquivo pronto) com a legenda do UDI.
 Ter 17/11: Post da turma ao vivo Regularização na LATAM com IA (início 24/11, de R$ 2.500 por R$ 1.750).
 Qua 18/11: Carrossel Usabilidade (arquivo pronto) com a legenda da Usabilidade.
-Qui 19/11: Post para empresas: equipes de 5 ou mais pessoas com desconto de até 50%.
+Qui 19/11: Post para empresas: 45% para equipes de 5 a 9 pessoas e 50% para 10 ou mais.
 Sex 20/11: Feriado. Sem post.
 Seg 23/11: Último aviso da turma Regularização na LATAM com IA (começa amanhã), no LinkedIn e no WhatsApp.
 Ter 24/11: Carrossel Avaliação Clínica (somente depois de atualizado para a ISO 14155:2026 e aprovado pelo Rafael).
 Qua 25/11: Post das turmas Auditor Líder Integrado (de R$ 2.800 por R$ 1.960) e Auditor Líder ISO 13485 (de R$ 2.500 por R$ 1.750), início 01/12.
-Sex 27/11: Black Friday. Post com o catálogo completo e reenvio do catálogo no WhatsApp.
+Sex 27/11: Black Friday. Post e WhatsApp do bônus de 24 horas: na compra de um curso EAD, o segundo sai com 50%, só hoje. Reenviar o catálogo com esse destaque. Na véspera (26/11), conferir com o Rafael se o cupom e a compra de dois cursos estão testados na loja.
 Seg 30/11: Cyber Monday e último dia de inscrição nas turmas de auditor líder (começam amanhã).
 Qua 02/12: Post de confiança: certificado HSC Global com QR Code e como funciona a plataforma (usar os vídeos do Theo de Certificação e Como usar a plataforma).
 Qui 03/12: Repostar o vídeo com motion do carrossel que teve mais cliques, com o gancho B.

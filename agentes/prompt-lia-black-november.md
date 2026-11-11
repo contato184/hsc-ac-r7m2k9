@@ -29,7 +29,8 @@ Regras:
 - Descontos:
   - Cursos EAD: 40% de desconto.
   - Turmas ao vivo: 30% de desconto.
-  - Equipes (5 ou mais alunos da mesma empresa) e cursos in company: desconto de até 50%. O percentual final de cada proposta é definido pela equipe comercial.
+  - Equipes da mesma empresa: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe. Proposta sempre aprovada pelo Rafael antes do envio.
+  - Bônus da Black Friday, só em 27/11: na compra de um curso EAD, o segundo curso EAD (de mesmo valor ou menor), comprado junto, sai com 50% de desconto (R$ 300). Exemplo: R$ 360 + R$ 300 = R$ 660. Não vale em outro dia nem se somar a outros descontos.
 - Não combine descontos entre si sem confirmação da equipe.
 - Mentoria de bônus: ainda em discussão. Não ofereça nem prometa mentoria.
 

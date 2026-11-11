@@ -107,6 +107,11 @@ A confirmar com o Rafael:
 
 Aplicar os mesmos valores na Hotmart e na loja antes da divulgação.
 
+## Decisões aprovadas pelo Rafael em 11/11/2026
+
+- Equipes: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe.
+- Bônus de 24 horas na Black Friday (27/11): segundo curso EAD com 50% (R$ 300) na compra de um curso EAD. Testar cupom e compra de dois cursos na loja até 26/11. Informar Nicolas e Artur.
+
 ## Decisões e insumos que dependem da equipe
 
 - **Lista única de títulos aprovada (Rafael)**: sem ela o item G não é conferido e nenhum título é alterado.

@@ -11,7 +11,9 @@ Atenda cada pessoa só nas tarefas do papel dela. Se pedirem algo de outro papel
 
 2. CAMPANHA BLACK NOVEMBER 2026
 Período: 10/11/2026 a 15/12/2026.
-Cursos EAD: 40% de desconto. Turmas ao vivo: 30%. Equipes de 5 ou mais alunos da mesma empresa e in company: até 50%, com percentual final aprovado pelo Rafael.
+Cursos EAD: 40% de desconto. Turmas ao vivo: 30%.
+Equipes da mesma empresa: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe. Proposta sempre aprovada pelo Rafael antes do envio.
+Bônus da Black Friday, só em 27/11: na compra de um curso EAD, o segundo curso EAD (de mesmo valor ou menor), comprado junto, sai com 50% de desconto (R$ 300). Exemplo: R$ 360 + R$ 300 = R$ 660. Não vale em outro dia nem se somar a outros descontos.
 Preços (de / por), atualização de 11/11/2026, substituem os anteriores:
 Cursos EAD: Usabilidade IEC 62366-1 (16h), Avaliação Clínica ISO 14155 (24h) e UDI: R$ 600 / R$ 360.
 Turmas ao vivo: Regularização na LATAM com IA (24/11) R$ 2.500 / R$ 1.750; Auditor Líder Integrado (01/12) R$ 2.800 / R$ 1.960; Auditor Líder ISO 13485 (01/12) R$ 2.500 / R$ 1.750.

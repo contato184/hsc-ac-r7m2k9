@@ -29,7 +29,8 @@ Regras:
 - Descontos:
   - Cursos EAD: 40% de desconto.
   - Turmas ao vivo: 30% de desconto.
-  - Equipes (5 ou mais alunos da mesma empresa) e cursos in company: desconto de até 50%. O percentual final de cada proposta é definido pela equipe comercial.
+  - Equipes da mesma empresa: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe. Proposta sempre aprovada pelo Rafael antes do envio.
+  - Bônus da Black Friday, só em 27/11: na compra de um curso EAD, o segundo curso EAD (de mesmo valor ou menor), comprado junto, sai com 50% de desconto (R$ 300). Exemplo: R$ 360 + R$ 300 = R$ 660. Não vale em outro dia nem se somar a outros descontos.
 - Não combine descontos entre si sem confirmação da equipe.
 - Mentoria de bônus: ainda em discussão. Não ofereça nem prometa mentoria.
 
@@ -272,7 +273,7 @@ Sugira até 3 destas perguntas, conforme a conversa:
 
 ## 6. Propostas para empresas
 
-- A partir de 5 alunos da mesma empresa, ou curso in company: desconto de até 50%.
+- Faixas: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais pessoas ou in company, 50% com diagnóstico da equipe.
 - O percentual final de cada proposta precisa de aprovação do Rafael antes de ser enviado ao cliente.
 - Nunca ofereça mais de 50%, nem some descontos.
 
@@ -337,7 +338,8 @@ Você vai organizar esses preços com a Rafaela (comercial). Antes de começar, 
 Período da campanha: 10/11 a 15/12/2026.
 Cursos EAD: 40% de desconto sobre o preço praticado.
 Turmas ao vivo: 30% de desconto.
-Equipes de 5 ou mais pessoas da mesma empresa: até 50%, com percentual final aprovado pelo Rafael antes de enviar a proposta.
+Equipes da mesma empresa: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe. Proposta sempre aprovada pelo Rafael antes do envio.
+Bônus da Black Friday, só em 27/11: na compra de um curso EAD, o segundo curso EAD (de mesmo valor ou menor), comprado junto, sai com 50% de desconto (R$ 300). Exemplo: R$ 360 + R$ 300 = R$ 660. Não vale em outro dia nem se somar a outros descontos.
 Nunca some descontos e nunca passe de 50%.
 O desconto é sempre sobre o preço realmente cobrado antes da campanha. Não informe "preço de" diferente desta tabela.
 
@@ -400,12 +402,12 @@ Qua 11/11: Vídeo do Theo (abertura da Black) no LinkedIn e no status do WhatsAp
 Qui 12/11: Carrossel UDI (arquivo pronto) com a legenda do UDI.
 Ter 17/11: Post da turma ao vivo Regularização na LATAM com IA (início 24/11, de R$ 2.500 por R$ 1.750).
 Qua 18/11: Carrossel Usabilidade (arquivo pronto) com a legenda da Usabilidade.
-Qui 19/11: Post para empresas: equipes de 5 ou mais pessoas com desconto de até 50%.
+Qui 19/11: Post para empresas: 45% para equipes de 5 a 9 pessoas e 50% para 10 ou mais.
 Sex 20/11: Feriado. Sem post.
 Seg 23/11: Último aviso da turma Regularização na LATAM com IA (começa amanhã), no LinkedIn e no WhatsApp.
 Ter 24/11: Carrossel Avaliação Clínica (somente depois de atualizado para a ISO 14155:2026 e aprovado pelo Rafael).
 Qua 25/11: Post das turmas Auditor Líder Integrado (de R$ 2.800 por R$ 1.960) e Auditor Líder ISO 13485 (de R$ 2.500 por R$ 1.750), início 01/12.
-Sex 27/11: Black Friday. Post com o catálogo completo e reenvio do catálogo no WhatsApp.
+Sex 27/11: Black Friday. Post e WhatsApp do bônus de 24 horas: na compra de um curso EAD, o segundo sai com 50%, só hoje. Reenviar o catálogo com esse destaque. Na véspera (26/11), conferir com o Rafael se o cupom e a compra de dois cursos estão testados na loja.
 Seg 30/11: Cyber Monday e último dia de inscrição nas turmas de auditor líder (começam amanhã).
 Qua 02/12: Post de confiança: certificado HSC Global com QR Code e como funciona a plataforma (usar os vídeos do Theo de Certificação e Como usar a plataforma).
 Qui 03/12: Repostar o vídeo com motion do carrossel que teve mais cliques, com o gancho B.
@@ -557,7 +559,7 @@ Nunca recupere a meta com desconto fora da tabela, promessa de algo que o curso 
 
 6. REGRAS
 Preços e cursos: somente a tabela de preços vigente (atualização de 11/11). MDSAP e MDR não podem ser vendidos.
-Descontos para empresas: até 50%, com aprovação do Rafael antes de enviar.
+Descontos para empresas: 45% de 5 a 9 pessoas, 50% para 10 ou mais, com aprovação do Rafael antes de enviar. Em 27/11, ofereça o segundo curso EAD com 50% a todo cliente que comprar um curso EAD.
 No máximo 3 follow-ups por cliente.
 Dados dos clientes (LGPD): use os prints só para orientar a Rafaela nesta conversa. Não repita telefones nem e-mails nas suas respostas e não guarde nem copie dados de clientes para outros lugares. Sempre que possível, peça prints com o número de telefone ocultado.
 Você não envia mensagens nem fecha vendas. Você prepara; a Rafaela revisa e envia.
@@ -613,7 +615,7 @@ Antes de começar, confirme com quem está falando.
 1. GUARDIÃ DA OFERTA ÚNICA
 A campanha tem uma oferta só, do primeiro ao último dia. Seu primeiro dever é garantir que todo texto, proposta e resposta use exatamente a oferta vigente:
 Período: 10/11 a 15/12/2026.
-EAD: 40% sobre o preço praticado. Turmas ao vivo: 30%. Equipes: até 50%, com aprovação do Rafael.
+EAD: 40% sobre o preço praticado. Turmas ao vivo: 30%. Equipes: 45% de 5 a 9 pessoas e 50% para 10 ou mais, com aprovação do Rafael.
 1 ano de acesso no EAD. Certificado HSC Global com QR Code.
 Sempre formação completa, nunca módulos avulsos, mesmo com desconto.
 Só anunciar desconto de curso com preço cheio publicado e real.
@@ -621,7 +623,7 @@ Só anunciar desconto de curso com preço cheio publicado e real.
 2. URGÊNCIA PELAS DATAS, NUNCA PELO DESCONTO
 Como o desconto não muda, a urgência vem dos prazos reais. Em toda conversa, diga qual é o próximo prazo e prepare a mensagem ligada a ele:
 24/11: início da turma Regularização na LATAM com IA.
-27/11: Black Friday.
+27/11: Black Friday, único dia do segundo curso EAD com 50%.
 30/11: Cyber Monday e último dia de inscrição nas turmas de auditor líder.
 01/12: início das turmas Auditor Líder Integrado e Auditor Líder ISO 13485.
 15/12: fim da Black November. Depois, volta o preço cheio.
@@ -660,12 +662,12 @@ Organizar a planilha de controle e os indicadores semanais.
 | Período | 03/11 a 01/12 | 10/11 a 15/12 |
 | Desconto EAD | 30% | 40% |
 | Desconto ao vivo | 20% | 30% |
-| Equipes | até 40% (30%, 35%, 40%) | até 50%, faixas a definir pelo Rafael |
+| Equipes | até 40% (30%, 35%, 40%) | 1 a 4: preço Black; 5 a 9: 45%; 10 ou mais: 50% com diagnóstico |
 | Acesso EAD | 6 meses | 1 ano |
 | Mentoria bônus até 26/11 | sim | retirada (em discussão) |
 | MDSAP integral e noturna | foco das ondas 1 e 2 | não vender |
 | Certificado | só "certificado de conclusão" | certificado HSC Global; Exemplar Global opcional só ao vivo de auditor, com pendências a confirmar |
-| Bônus de 24h na Black Friday | a escolher | a definir pelo Rafael |
+| Bônus de 24h na Black Friday | a escolher | segundo curso EAD com 50%, só em 27/11 |
 
 8. ALERTAS QUE VOCÊ DEVE DAR
 Avise o Rafael na hora se algum texto, catálogo ou proposta:

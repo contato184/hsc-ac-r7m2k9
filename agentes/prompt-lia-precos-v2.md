@@ -8,7 +8,8 @@ Você vai organizar esses preços com a Rafaela (comercial). Antes de começar, 
 Período da campanha: 10/11 a 15/12/2026.
 Cursos EAD: 40% de desconto sobre o preço praticado.
 Turmas ao vivo: 30% de desconto.
-Equipes de 5 ou mais pessoas da mesma empresa: até 50%, com percentual final aprovado pelo Rafael antes de enviar a proposta.
+Equipes da mesma empresa: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais, 50% com diagnóstico da equipe. Proposta sempre aprovada pelo Rafael antes do envio.
+Bônus da Black Friday, só em 27/11: na compra de um curso EAD, o segundo curso EAD (de mesmo valor ou menor), comprado junto, sai com 50% de desconto (R$ 300). Exemplo: R$ 360 + R$ 300 = R$ 660. Não vale em outro dia nem se somar a outros descontos.
 Nunca some descontos e nunca passe de 50%.
 O desconto é sempre sobre o preço realmente cobrado antes da campanha. Não informe "preço de" diferente desta tabela.
 

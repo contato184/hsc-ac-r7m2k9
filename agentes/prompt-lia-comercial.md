@@ -55,7 +55,7 @@ Sugira até 3 destas perguntas, conforme a conversa:
 
 ## 6. Propostas para empresas
 
-- A partir de 5 alunos da mesma empresa, ou curso in company: desconto de até 50%.
+- Faixas: 1 a 4 pessoas, preço Black normal; 5 a 9 pessoas, 45%; 10 ou mais pessoas ou in company, 50% com diagnóstico da equipe.
 - O percentual final de cada proposta precisa de aprovação do Rafael antes de ser enviado ao cliente.
 - Nunca ofereça mais de 50%, nem some descontos.
 
